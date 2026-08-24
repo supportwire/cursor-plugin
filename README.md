@@ -1,6 +1,6 @@
 # SupportWire
 
-Cursor plugin for the [SupportWire](https://supportwire.com) inbox, via the official remote MCP server.
+Cursor plugin for the [SupportWire](https://supportwire.ai) inbox, via the official remote MCP server.
 
 Search conversations, reply in-thread, and pull customer or teammate context.
 
@@ -31,7 +31,7 @@ Tool calls run as the signed-in user and cannot exceed that user's permissions.
 
 ## Docs
 
-- Product: https://supportwire.com
+- Product: https://supportwire.ai
 - MCP: https://mcp.supportwire.ai/mcp
 
 ## License
