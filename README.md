@@ -1,6 +1,18 @@
-# SupportWire for Cursor
+# SupportWire
 
-Private plugin wrapper around the SupportWire MCP server. OAuth — no API keys.
+Cursor plugin for the [SupportWire](https://supportwire.com) inbox, via the official remote MCP server.
+
+Search conversations, reply in-thread, and pull customer or teammate context.
+
+## Install
+
+1. Open **Cursor Settings → Plugins**.
+2. Search for **SupportWire**.
+3. Click **Install**, then complete the SupportWire sign-in prompt.
+
+Or run `/add-plugin supportwire` in chat.
+
+## MCP
 
 ```json
 {
@@ -13,14 +25,15 @@ Private plugin wrapper around the SupportWire MCP server. OAuth — no API keys.
 }
 ```
 
-## Install (while private)
+Auth is OAuth 2.0 (DCR + PKCE). Cursor registers itself and prompts for SupportWire sign-in. No API key.
 
-1. Clone this repo.
-2. Cursor Settings → Plugins → add the local folder.
-3. Connect the SupportWire MCP server and complete OAuth.
+Tool calls run as the signed-in user and cannot exceed that user's permissions.
 
-Team install: Dashboard → Settings → Plugins → Team Marketplaces → import this GitHub repo.
+## Docs
 
-## Marketplace
+- Product: https://supportwire.com
+- MCP: https://mcp.supportwire.ai/mcp
 
-Repo is private. Flip public, then submit at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish).
+## License
+
+MIT

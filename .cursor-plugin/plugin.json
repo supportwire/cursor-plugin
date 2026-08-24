@@ -5,7 +5,7 @@
   "minClientVersions": {
     "cursor": "3.13.0"
   },
-  "description": "Run your SupportWire inbox from Cursor \u2014 conversations, replies, customers, and team over OAuth.",
+  "description": "Search conversations, reply in-thread, and pull customer or teammate context from your SupportWire inbox.",
   "author": {
     "name": "SupportWire",
     "email": "support@supportwire.ai"
